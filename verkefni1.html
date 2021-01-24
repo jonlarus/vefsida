@@ -20,7 +20,7 @@
 				<!-- Header -->
 				<!-- Note: The "styleN" class below should match that of the banner element. -->
 					<header id="header" class="alt style2">
-						<a href="index.html" class="logo"><strong>Forty</strong> <span>by HTML5 UP</span></a>
+						<a href="umhofund.html" class="logo"><strong>Um höfund</strong> <span></span></a>
 						<nav>
 							<a href="#menu">Menu</a>
 						</nav>
@@ -30,8 +30,8 @@
 					<nav id="menu">
 						<ul class="links">
 							<li><a href="index.html">Heim</a></li>
+                            <li><a href="umhofund.html">Um höfund</a></li>
 							<li><a href="verkefni1.html">Verkefni 1</a></li>
-							<li><a href="generic.html">Generic</a></li>
 							<li><a href="elements.html">Elements</a></li>
 						</ul>
 						<ul class="actions stacked">
@@ -84,8 +84,51 @@
 						</div>
                                     
         <p> Forsíðan er vistuð undir index.html og þessi síða undir verkefni 1. Allar myndir sem ég nota eru í images möppunni. Hægt er að setja þær inn eins og ég geri en fullt af mismunandi útfærslum eru í boði. Fyrirsagnir eru merktar með header og texti með p.</p>
-    <p> Þegar vefsíðan er komin í ásættanlega mynd er kominn tími til að uploada henni á github. Ef að þú ert ekki búinn að sækja forritið <strong>git </strong> og stofna aðgang á <strong>github</strong> er það næsta skref.</p>
+    <p> Þegar vefsíðan er komin í ásættanlega mynd er kominn tími til að uploada henni á github. Ef að þú ert ekki búinn að sækja forritið <strong>git </strong> og stofna aðgang á <strong>github</strong> er það næsta skref. Það þarf að stofa repository á github sem er lítið mál, að uploada vefsíðunni er erfiði parturinn.</p>
+    <p> Ef notast er við mac skal opna terminal. Finna þarf möppuna sem vefsíðan er geymd í gegnum terminal þegar vefsíðan er fundin þarf að copy pastea inn þessa skipun. Hún ætti að vera sjánleg þegar fyrst er opnað repositorið á github.</p>
+                <p>
+echo "# Nafn á síðu" >> README.md <br/>
+git init<br/>
+git add README.md<br/>
+git commit -m "first commit"<br/>
+git branch -M main<br/>
+git remote add origin https://github.com/þitt nafn/nafn á vefsíðu.git<br/>
+git push -u origin main</p>
                                     
+ <p>Þegar búið að að keyra hana í gegn ætti að vera komið eitt skjal inn á github repositoryið, readme.md. Til þess að bæta við restina þarf að skrifa nokkrar skipanir í viðbót. Passa sig að ýta á enter á milli skipana og vera inni í réttri möppu.<br/><br/>
+                            git add .<br/>
+                            git status (til að sjá hvað file eiga eftir að fara inn)<br/>
+                            git commit -m "assisted"<br/>
+                            git push<br/>
+                                    </p>
+                                    
+                      <div class="inner">
+							<span class="image">
+								<img src="images/ffv1m8.png" style="float: left; width: 40%; margin-left: 2%; margin-bottom: 0.5em;" />
+                                
+                                <img src="images/ffv1m5.png" style="float: left; width: 40%; margin-left: 2%; margin-bottom: 0.5em;" />
+                                <span class="image">
+                                    
+								<img src="images/ffv1m6.png" style="float: left; width: 40%; margin-left: 2%; margin-bottom: 0.5em;" />
+                                
+                                <img src="images/ffv1m7.png" style="float: left; width: 40%; margin-left: 2%; margin-bottom: 0.5em;" />
+							</span>
+						</div>
+                                
+                           <p>Núna ættu öll skjölin fyrir vefsíðuna að vera komin inn á repositoryið. Til að ljúka að hlaða upp vefsíðunni er farið í settings, fundið github pages og branch breytt í main. Eftir smá bið ætti linkurinn að sýna vefsíðuna í réttri mynd.</p>
+                          
+                          
+                             <div class="inner">
+							<span class="image">
+								<img src="images/ffv1m10.png" style="float: left; width: 40%; margin-left: 2%; margin-bottom: 0.5em;" />
+                                <img src="images/ffv1m11.png" style="float: left; width: 40%; margin-left: 2%; margin-bottom: 0.5em;" />
+							</span>
+						</div>
+                            <p> Til þess að uppfæra vefsíðuna þá er notasta við þrjár skipanir.<br/>
+                           git init<br/>
+                           git commit -m "assisted"<br/>
+                           git push<br/>
+                           Þessar skipanir eru keyrðar inni í réttu skjali gegnum terminalinn eins og í fyrsta skipti áður.</p>
 								</div>
 							</section>
 
